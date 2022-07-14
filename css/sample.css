@@ -20,8 +20,7 @@ body {
 .nav div.time {
     float: left;
     color: #fff;
-    line-height: 65px;
-    font-size: 2.4rem;
+    font-size: 20px;
     margin: auto;
     padding: 0;
     top: 0;
@@ -121,6 +120,10 @@ input[type=text] {
 @media screen and (min-width:200px) and (max-width:1020px) {
     .navTrigger {
         display: block;
+    }
+    .nav div.time {
+        width: 50%;
+        font-size: auto;
     }
     .home {
         font-size: auto;
