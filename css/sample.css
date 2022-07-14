@@ -92,7 +92,7 @@ input[type=text] {
 }
 
 #message {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 ::-webkit-input-placeholder {
@@ -155,6 +155,10 @@ input[type=text] {
     }
     .nav div.media_button {
         display: block;
+    }
+    .home {
+        font-size: 2rem;
+        width: 50%;
     }
 }
 
