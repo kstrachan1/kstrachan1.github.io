@@ -111,19 +111,19 @@ input[type=text] {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 400px) and (max-width: 1020px) {
     .container {
         margin: 0;
     }
-    .home {
-        font-size: 2rem;
-        width: 50%;
-    }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:400px) and (max-width:1020px) {
     .navTrigger {
         display: block;
+    }
+    .home {
+        font-size: 2rem;
+        width: 100%;
     }
     .nav div.logo {
         margin-left: 15px;
