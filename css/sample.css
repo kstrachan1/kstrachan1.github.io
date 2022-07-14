@@ -111,19 +111,20 @@ input[type=text] {
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 1020px) {
+@media screen and (min-width: 200px) and (max-width: 1020px) {
     .container {
         margin: 0;
+        width: auto;
     }
 }
 
-@media screen and (min-width:400px) and (max-width:1020px) {
+@media screen and (min-width:200px) and (max-width:1020px) {
     .navTrigger {
         display: block;
     }
     .home {
-        font-size: 2rem;
-        width: 100%;
+        font-size: auto;
+        width: auto;
     }
     .nav div.logo {
         margin-left: 15px;
@@ -139,7 +140,7 @@ input[type=text] {
     }
     .nav div.main_list ul {
         flex-direction: column;
-        width: 100%;
+        width: auto;
         height: 100vh;
         right: 0;
         left: 0;
