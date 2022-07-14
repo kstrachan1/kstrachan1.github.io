@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Karro Strachan Landing Page</title>
+</head>
+    <body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">my life's choice</h2>
+                <div class="toggle"></div>
+            </header>
+
+            <video src="assets/Lighthouse.mp4" muted loop autoplay></video>
+
+            <div class="overlay"></div>
+
+            <div class="text">
+                <h2>Karro A. Strachan</h2>
+                <h3>As i have been guided by great men so i guide you</h3>
+                <p>
+                    <em>“For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you a hope and a future.” </em>
+                </p>
+                <a href="#">Lighthouse</a>
+
+            </div>
+
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/karro.strachan" target="_blank"><img src="images/facebook.png" alt="face book logo" width="100"></a>
+                    <a href="https://github.com/kstrachan1?tab=repositories" target="_blank"><img src="images/github.png" alt="github" width="90"></a>
+                    <a href="https://www.linkedin.com/in/karro-strachan-6a4299200/" target="_blank"><img src="images/linkedin.png" alt="linkedin" width="80"></a>
+                </li>
+            </ul>
+        
+        </section>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about me.html">About Me</a></li>
+                <li><a href="philosophy.html">Philosophy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <script>
+                const menutoggle = document.querySelector('.toggle')
+                const showcase = document.querySelector('.showcase')
+
+                menutoggle.addEventListener('click', () => {
+                    menutoggle.classList.toggle('active')
+                    showcase.classList.toggle('active')
+                })
+            </script>
+        </div>
+    </body>
+</html
