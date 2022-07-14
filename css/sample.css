@@ -115,6 +115,10 @@ input[type=text] {
     .container {
         margin: 0;
     }
+    .home {
+        font-size: 2rem;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -155,10 +159,6 @@ input[type=text] {
     }
     .nav div.media_button {
         display: block;
-    }
-    .home {
-        font-size: 2rem;
-        width: 50%;
     }
 }
 
