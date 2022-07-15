@@ -114,6 +114,74 @@ input[type=text] {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+@media screen and (min-width:200px) and (max-width:319px) {
+    .navTrigger {
+        display: block;
+    }
+    #time {
+        width: auto;
+        margin: auto;
+        left: auto;
+        top: auto;
+        font-size: auto;
+        padding: auto;
+    }
+    input[type=text] {
+        color: #4f4747b7;
+        text-align: center;
+        background: transparent;
+        font-size: 10px;
+    }
+    .userOutput {
+        color: #312f2fe7;
+        position: relative;
+        margin-left: auto;
+        top: auto;
+        width: auto;
+        text-align: center;
+        font-size: auto;
+    }
+    #message {
+        font-size: 1em;
+    }
+    .home {
+        font-size: auto;
+        width: auto;
+    }
+
+    .nav div.main_list {
+        width: auto;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: auto;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(86, 81, 81, 0);
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: auto;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: auto;
+        font-size: auto;
+        padding: auto;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
 
 
 @media screen and (min-width:320px) and (max-width:480px) {
