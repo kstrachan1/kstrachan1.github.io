@@ -5,21 +5,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/sample.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
         <nav class="nav">
 
         <div class="container">
-            <div class="time", id="today">
-                <py-script>
-                import datetime as dt
-                import time
-                t = dt.datetime.now().strftime('%A %B %d %Y')
-                pyscript.write('today', t)
-                </py-script>
-            </div>
+            <div id="time"></div>
 
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
@@ -79,5 +72,26 @@
                 $("#button").click();
             }
         });
+        function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  // add a zero in front of numbers<10
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+  t = setTimeout(function() {
+    startTime()
+  }, 500);
+}
+startTime();
     </script>
 </html>

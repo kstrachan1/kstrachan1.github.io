@@ -17,12 +17,12 @@ body {
     text-align: center;
 }
 
-.nav div.time {
+#time {
     float: left;
     color: #fff;
     font-size: 20px;
     margin: auto;
-    padding: 0;
+    padding: 5px;
     top: 0;
     left: 0;
 }
@@ -114,11 +114,13 @@ input[type=text] {
     .navTrigger {
         display: block;
     }
-    .nav div.time {
+    #time {
         width: auto;
-        margin: 0;
-        left: 0;
+        margin: auto;
+        left: auto;
+        top: auto;
         font-size: auto;
+        padding: auto;
     }
     .userOutput {
         color: #312f2fe7;
@@ -187,11 +189,12 @@ input[type=text] {
         text-align: center;
         font-size: 3rem;
     }
-    .nav div.time {
+    #time {
         width: auto;
-        margin: 0;
-        left: 0;
+        margin: auto;
+        left: auto;
         font-size: auto;
+        padding: auto;
     }
     #message {
         font-size: 3rem;
@@ -244,10 +247,11 @@ input[type=text] {
     #userInput{
         width: auto;
     }
-    .nav div.time {
+    #time {
         width: auto;
-        margin: 0;
+        margin: auto;
         left: auto;
+        padding: auto;
         font-size: auto;
     }
     .home {
@@ -298,10 +302,11 @@ input[type=text] {
     #userInput{
         width: auto;
     }
-    .nav div.time {
+    #time {
         width: auto;
-        margin: 0;
-        left: 0;
+        margin: auto;
+        padding: auto;
+        left: auto;
         font-size: auto;
     }
     .home {
