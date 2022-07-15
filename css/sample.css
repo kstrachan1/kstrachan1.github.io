@@ -20,7 +20,7 @@ body {
 #time {
     float: left;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     margin: auto;
     padding: 5px;
     top: 0;
@@ -58,6 +58,11 @@ body {
 .nav div.main_list ul li a:hover {
     color: #0082e6;
 }
+.userOutput{
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
 
 .home {
     width: 100%;
@@ -67,32 +72,24 @@ body {
 	background-size:cover;
 }
 
-.userOutput {
-    color: #312f2fe7;
-    position: relative;
-    margin-left: auto;
-    top: 40%;
-    width: auto;
-    text-align: center;
-    font-size: 3rem;
-    box-sizing: border-box;
-}
-
 .btn {
     border: none;
     outline: none;
 }
 
 input {
+    position: relative;
+    top: 40%;
     border-radius: 6px;
     border: none;
     outline: none;
 }
 
 input[type=text] {
+    position: relative;
+    top: 30%;
     color: #4f4747b7;
     text-align: center;
-    top: 40%;
     background: transparent;
     font-size: 25px;
 }
@@ -115,7 +112,7 @@ input[type=text] {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-@media screen and (min-width:200px) and (max-width:319px) {
+@media screen and (min-width:50px) and (max-width:319px) {
     .navTrigger {
         display: block;
     }
@@ -127,23 +124,30 @@ input[type=text] {
         font-size: auto;
         padding: auto;
     }
+    .userOutput{
+        position: relative;
+        text-align: center;
+        top: 30%;
+    }
+    .userOutput{
+        position: relative;
+        text-align: center;
+        top: 30%;
+    }
     input[type=text] {
+        position: relative;
+        top: 30%;
         color: #4f4747b7;
         text-align: center;
         background: transparent;
-        font-size: 10px;
+        font-size: 1.5rem;
     }
-    .userOutput {
-        color: #312f2fe7;
-        position: relative;
-        margin-left: auto;
-        top: auto;
-        width: auto;
-        text-align: center;
-        font-size: auto;
+    .btn {
+        border: none;
+        outline: none;
     }
     #message {
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .home {
         font-size: auto;
@@ -197,21 +201,6 @@ input[type=text] {
         font-size: auto;
         padding: auto;
     }
-    input[type=text] {
-        color: #4f4747b7;
-        text-align: center;
-        background: transparent;
-        font-size: 10px;
-    }
-    .userOutput {
-        color: #312f2fe7;
-        position: relative;
-        margin-left: auto;
-        top: auto;
-        width: auto;
-        text-align: center;
-        font-size: auto;
-    }
     #message {
         font-size: 1em;
     }
@@ -219,7 +208,11 @@ input[type=text] {
         font-size: auto;
         width: auto;
     }
-
+    .userOutput{
+        position: relative;
+        text-align: center;
+        top: 30%;
+    }
     .nav div.main_list {
         width: auto;
         height: 0;
@@ -277,18 +270,17 @@ input[type=text] {
         font-size: auto;
         padding: auto;
     }
-    input[type=text] {
-        color: #4f4747b7;
-        text-align: center;
-        background: transparent;
-        font-size: auto;
-    }
     #message {
         font-size: 3rem;
     }
     .home {
         font-size: auto;
         width: auto;
+    }
+    .userOutput{
+        position: relative;
+        text-align: center;
+        top: 30%;
     }
     .nav div.logo {
         margin-left: 15px;
@@ -345,11 +337,10 @@ input[type=text] {
         font-size: auto;
         width: auto;
     }
-    input[type=text] {
-        color: #4f4747b7;
+    .userOutput{
+        position: relative;
         text-align: center;
-        background: transparent;
-        font-size: auto;
+        top: 30%;
     }
     #message {
         font-size: 4rem;
@@ -406,11 +397,10 @@ input[type=text] {
         font-size: auto;
         width: auto;
     }
-    input[type=text] {
-        color: #4f4747b7;
+    .userOutput{
+        position: relative;
         text-align: center;
-        background: transparent;
-        font-size: auto;
+        top: 30%;
     }
     #message {
         font-size: 5rem;
