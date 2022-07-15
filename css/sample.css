@@ -254,15 +254,6 @@ input[type=text] {
     #userInput{
         width: auto;
     }
-    .userOutput {
-        color: #312f2fe7;
-        position: relative;
-        margin-left: auto;
-        top: 40%;
-        width: auto;
-        text-align: center;
-        font-size: 3rem;
-    }
     #time {
         width: auto;
         margin: auto;
