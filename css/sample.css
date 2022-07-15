@@ -52,7 +52,7 @@ body {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .nav div.main_list ul li a:hover {
@@ -75,7 +75,7 @@ body {
     top: 40%;
     width: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 input {
@@ -91,7 +91,7 @@ input[type=text] {
 }
 
 #message {
-    font-size: 40px;
+    font-size: 6rem;
 }
 
 ::-webkit-input-placeholder {
@@ -110,30 +110,35 @@ input[type=text] {
 }
 
 
-@media screen and (min-width: 200px) and (max-width: 1020px) {
-    .container {
-        margin: 0;
-        width: auto;
-    }
-}
-
-@media screen and (min-width:200px) and (max-width:1020px) {
+@media screen and (min-width:320px) and (max-width:480px) {
     .navTrigger {
         display: block;
     }
     .nav div.time {
-        width: 50%;
+        width: auto;
+        margin: 0;
+        left: 0;
         font-size: auto;
+    }
+    .userOutput {
+        color: #312f2fe7;
+        position: relative;
+        margin-left: auto;
+        top: auto;
+        width: auto;
+        text-align: center;
+        font-size: auto;
+    }
+    #message {
+        font-size: 1em;
     }
     .home {
         font-size: auto;
         width: auto;
     }
-    .nav div.logo {
-        margin-left: 15px;
-    }
+
     .nav div.main_list {
-        width: 100%;
+        width: auto;
         height: 0;
         overflow: hidden;
     }
@@ -148,24 +153,200 @@ input[type=text] {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #111;
+        background-color: rgba(86, 81, 81, 0);
         background-position: center top;
     }
     .nav div.main_list ul li {
-        width: 100%;
+        width: auto;
         text-align: right;
     }
     .nav div.main_list ul li a {
         text-align: center;
-        width: 100%;
-        font-size: 3rem;
-        padding: 20px;
+        width: auto;
+        font-size: auto;
+        padding: auto;
     }
     .nav div.media_button {
         display: block;
     }
 }
 
+@media screen and (min-width:481px) and (max-width:786px) {
+    .navTrigger {
+        display: block;
+    }
+    #userInput{
+        width: auto;
+    }
+    .userOutput {
+        color: #312f2fe7;
+        position: relative;
+        margin-left: auto;
+        top: 40%;
+        width: auto;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .nav div.time {
+        width: auto;
+        margin: 0;
+        left: 0;
+        font-size: auto;
+    }
+    #message {
+        font-size: 3rem;
+    }
+    .home {
+        font-size: auto;
+        width: auto;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: auto;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: auto;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(86, 81, 81, 0);
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: auto;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: auto;
+        font-size: auto;
+        padding: auto;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .navTrigger {
+        display: block;
+    }
+    #userInput{
+        width: auto;
+    }
+    .nav div.time {
+        width: auto;
+        margin: 0;
+        left: auto;
+        font-size: auto;
+    }
+    .home {
+        font-size: auto;
+        width: auto;
+    }
+    #message {
+        font-size: 4rem;
+    }
+    .nav div.main_list {
+        width: auto;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: auto;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(86, 81, 81, 0);
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: auto;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: auto;
+        font-size: auto;
+        padding: auto;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .navTrigger {
+        display: block;
+    }
+    #userInput{
+        width: auto;
+    }
+    .nav div.time {
+        width: auto;
+        margin: 0;
+        left: 0;
+        font-size: auto;
+    }
+    .home {
+        font-size: auto;
+        width: auto;
+    }
+    #message {
+        font-size: 5rem;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: auto;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: auto;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(86, 81, 81, 0);
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: auto;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: auto;
+        font-size: auto;
+        padding: auto;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
 
 .navTrigger {
     cursor: pointer;
