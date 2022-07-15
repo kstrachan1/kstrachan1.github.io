@@ -32,7 +32,7 @@
 
     <section class="home">
         <div class="userOutput">
-                <input type="text" name="" value="" id="userInput" placeholder="What is your name?">
+                <input type="text" name="" value="" class="userinput" id="userInput" placeholder="What is your name?">
                 <br>
                 <button id="button", class="btn" onclick="myFunction()"></button>
                 <h1 id="message"></h1>
@@ -81,13 +81,16 @@
 
 function startTime() {
   var today = new Date();
+  var y = today.getFullYear();
+  var day = today.toLocaleString('default', {weekday: 'long'});
+  var month = today.toLocaleString('default', { month: 'long' });
   var h = today.getHours();
   var m = today.getMinutes();
   var s = today.getSeconds();
-  // add a zero in front of numbers<10
+
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+  document.getElementById('time').innerHTML =day + " " + month + " " + y + " " + h + ":" + m + ":" + s;
   t = setTimeout(function() {
     startTime()
   }, 500);

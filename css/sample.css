@@ -67,7 +67,6 @@ body {
 	background-size:cover;
 }
 
-
 .userOutput {
     color: #312f2fe7;
     position: relative;
@@ -76,6 +75,12 @@ body {
     width: auto;
     text-align: center;
     font-size: 3rem;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: none;
+    outline: none;
 }
 
 input {
