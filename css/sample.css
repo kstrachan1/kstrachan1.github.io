@@ -93,6 +93,7 @@ input[type=text] {
     color: #4f4747b7;
     text-align: center;
     background: transparent;
+    font-size: 25px;
 }
 
 #message {
@@ -126,6 +127,12 @@ input[type=text] {
         top: auto;
         font-size: auto;
         padding: auto;
+    }
+    input[type=text] {
+        color: #4f4747b7;
+        text-align: center;
+        background: transparent;
+        font-size: 10px;
     }
     .userOutput {
         color: #312f2fe7;
@@ -201,6 +208,12 @@ input[type=text] {
         font-size: auto;
         padding: auto;
     }
+    input[type=text] {
+        color: #4f4747b7;
+        text-align: center;
+        background: transparent;
+        font-size: auto;
+    }
     #message {
         font-size: 3rem;
     }
@@ -263,6 +276,12 @@ input[type=text] {
         font-size: auto;
         width: auto;
     }
+    input[type=text] {
+        color: #4f4747b7;
+        text-align: center;
+        background: transparent;
+        font-size: auto;
+    }
     #message {
         font-size: 4rem;
     }
@@ -317,6 +336,12 @@ input[type=text] {
     .home {
         font-size: auto;
         width: auto;
+    }
+    input[type=text] {
+        color: #4f4747b7;
+        text-align: center;
+        background: transparent;
+        font-size: auto;
     }
     #message {
         font-size: 5rem;
